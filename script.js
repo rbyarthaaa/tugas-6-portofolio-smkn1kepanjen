@@ -1,15 +1,3 @@
-//dark/light mode
-const darkModeBtn = document.getElementById("darkModeBtn");
-darkModeBtn.addEventListener("click", function () {
-    document.body.classList.toggle("dark");
-    // ganti icon tombol
-    if (document.body.classList.contains("dark")) {
-        darkModeBtn.textContent = "☀";
-    } else {
-        darkModeBtn.textContent = "☾";
-    }
-});
-
 //tombol ganti menu
 themeToggle.addeventListener("click", function () {
     document.body.classList.toggle("dark");
